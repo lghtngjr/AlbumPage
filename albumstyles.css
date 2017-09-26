@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 body {
     background-color: lightblue;
+         }
+tr {
+    text-align: center;
+            }
+table {
+    width: 75%;
 }
-p {
-    font-family: "Times New Roman", Times, serif;
-}
-li {
-    font-style: italics;
+ul {
     color: blue;
+    font-style: bold
 }
-</style>
-</html>
+
