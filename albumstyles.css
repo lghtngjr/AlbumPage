@@ -1,11 +1,12 @@
 body {
     background-color: lightblue;
          }
-tr {
-    text-align: center;
-        }
+th, td, tr {
+        padding: 5px;
+        text-align: center;        }
 table {
     border: 0;
+    text-align: center;
     align-content: center;
     width: 50%;
            }
