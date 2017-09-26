@@ -3,12 +3,14 @@ body {
          }
 tr {
     text-align: center;
-            }
+        }
 table {
-    width: 75%;
-}
+    border: 0;
+    align-content: center;
+    width: 50%;
+           }
 ul {
     color: blue;
     font-style: bold
-}
+        }
 
