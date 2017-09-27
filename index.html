@@ -4,20 +4,38 @@
         <link rel="stylesheet" href="albumstyles.css">
         <title>Album Page</title>
     </head>
-        <!--<div style="text-align: center"><img src="images/Metallica_RTL.jpg" style='width: 200px'/></div>-->        
-        <div style="background:url(https://up-1.cdn-fullscreendirect.com/production/photos/7549/medium/20150807_213911_7549_752890.jpeg) center center;margin:auto;height:500px;width:500px";>
+        <div style="background:url(https://up-1.cdn-fullscreendirect.com/production/photos/7549/medium/20150807_213911_7549_752890.jpeg) center center;margin:auto;height:500px;width:500px;">
+        <a href="https://www.metallica.com/"></a>
                 </div>
         <h1><div style="color:blue;font-weight:bold;text-align: center">Ride the Lightning</h1></div>
-        <h2><div style="font-family:fantasy;text-align:center;font-size:larger;"><a href="https://www.metallica.com/">Metallica</a></div></h2>
+        <h2><div style="font-family:fantasy;text-align:center;font-size:larger;">
+            <a href="https://www.metallica.com/">Metallica
+            <style>
+                a {
+                    font-style: fantasy;
+                    text-decoration: none;
+                    }
+                a:link {
+                    color: blue;
+                    text-decoration: none;
+                    }
+                a:visited {
+                    color: blue;
+                    text-decoration: none;
+                    }
+                a:hover {
+                    text-decoration: underline;
+                    background-color: green;
+                                        }
+                a:active {
+                    font-style: fantasy;
+                    text-decoration: none;
+                    }
+                </style>
+            </a>
+        </div></h2>
         <h3><div style="text-align: center">1984</h3></div>
           <hr>
-        </div>
-        <!--<p style="color:blue;font-weight:bold;">
-           Ride the Lightning is the second studio album by the American heavy metal band Metallica. 
-           The album was released on July 27, 1984, by the independent record label Megaforce Records. 
-           The album was recorded in just three weeks. The album title was taken from a passage in Stephen King's novel "The Stand".
-        <p>-->
-            <div>
         <h2><div style="font-family:fantasy;text-align:center;font-size:larger;">Band Members and Producer</h2></div>
         <ul>
             <li>James Hetfield - Guitar, Vocals</li>
@@ -28,12 +46,21 @@
         </ul>
         <h2><div style="text-align: center">Tracks</h2></div>
         <table align="center" border="1" width="100%">
-                <tr bgcolor="grey">
+                    <tr bgcolor="grey">
                     <th>Track #</th>
                     <th>Track Title</th>
                     <th>Track Length</th>
                 </tr>
-                <tr>
+                <tbody>
+                    <style>
+                        tr:nth-child(even) {
+                        background-color: #1970F1;
+                            }
+                        tr:nth-child(odd) {
+                        background-color: #999898;
+                            }
+                    </style>
+                    <tr>
                     <td>1</td>
                     <td>Fight Fire with Fire</td>
                     <td>4:45</td>
@@ -73,8 +100,8 @@
                          <td>The Call of Ktulu</td>
                          <td>8:53</td>
                      </tr>
-                  </table>
-            
+                </tbody>
+            </table>
         </div>
     </body>
 </html>

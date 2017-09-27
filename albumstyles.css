@@ -2,8 +2,11 @@ body {
     background-color: lightblue;
          }
 th, td, tr {
-        padding: 5px;
-        text-align: center;        }
+    padding: 5px;
+    text-align: center;        }
+td {
+    font-style: italic;
+    }
 table {
     border: 0;
     text-align: center;
