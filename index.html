@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Album Page with Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="albumstyles.css">
-        <title>Album Page</title>
     </head>
-        <div style="background:url(https://up-1.cdn-fullscreendirect.com/production/photos/7549/medium/20150807_213911_7549_752890.jpeg) center center;margin:auto;height:500px;width:500px;">
-        <a href="https://www.metallica.com/"></a>
-                </div>
+        <div class="container">    
+            <img src="images\Metallica_RTL.jpg" class="img-circle" alt="Metallica_RTL" align="center" width="304" height="236"> 
+            <!--<div style="background:url(https://up-1.cdn-fullscreendirect.com/production/photos/7549/medium/20150807_213911_7549_752890.jpeg) center center;margin:auto;height:500px;width:500px;">-->
+            </div>
         <h1><div style="color:blue;font-weight:bold;text-align: center">Ride the Lightning</h1></div>
         <h2><div style="font-family:fantasy;text-align:center;font-size:larger;">
             <a href="https://www.metallica.com/">Metallica
@@ -44,62 +48,66 @@
             <li>Cliff Burton - Bass</li>
             <li>Flemming Rasmussen - Producer</li>
         </ul>
-        <h2><div style="text-align: center">Tracks</h2></div>
-        <table align="center" border="1" width="100%">
+        <div class="table-responsive">
+                <h2><div style="text-align: center">Tracks</h2></div>
+                <table class="table">
+                    <thead>
+                <table align="center" border="1" width="100%">
                     <tr bgcolor="grey">
-                    <th>Track #</th>
-                    <th>Track Title</th>
-                    <th>Track Length</th>
-                </tr>
-                <tbody>
-                    <style>
-                        tr:nth-child(even) {
-                        background-color: #1970F1;
-                            }
-                        tr:nth-child(odd) {
-                        background-color: #999898;
-                            }
-                    </style>
-                    <tr>
-                    <td>1</td>
-                    <td>Fight Fire with Fire</td>
-                    <td>4:45</td>
-                 </tr>
-                  <tr>
+                        <th>Track #</th>
+                        <th>Track Title</th>
+                        <th>Track Length</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <style>
+                            tr:nth-child(even) {
+                            background-color: #1970F1;
+                                }
+                            tr:nth-child(odd) {
+                            background-color: #999898;
+                                 }
+                        </style>
+                    <tr class="1">
+                        <td>1</td>
+                        <td>Fight Fire with Fire</td>
+                        <td>4:45</td>
+                    </tr>
+                    <tr class="2">
                      <td>2</td>
                      <td>Ride the Lightning</td>
                      <td>6:36</td>
-                 </tr>
-                 <tr>
+                    </tr>
+                    <tr class="3">
                       <td>3</td>
                       <td>For Whom the Bell Tolls</td>
                       <td>5:09</td>
-                 </tr>
-                  <tr>
+                    </tr>
+                    <tr class="4">
                       <td>4</td>
                       <td>Fade to Black</td>
                       <td>6:57</td>
-                  </tr>
-                  <tr>
+                    </tr>
+                    <tr class="5">
                       <td>5</td>
                       <td>Trapped under Ice</td>
                       <td>4:04</td>
-                   </tr>
-                  <tr>
+                    </tr>
+                    <tr class="6">
                        <td>6</td>
                        <td>Escape</td>
                        <td>4:23</td>
-                  </tr>
-                    <tr>
+                    </tr>
+                    <tr class="7">
                         <td>7</td>
                         <td>Creeping Death</td>
                         <td>6:36</td>
                     </tr>
-                    <tr>
+                    <tr class="8">
                          <td>8</td>
                          <td>The Call of Ktulu</td>
                          <td>8:53</td>
-                     </tr>
+                    </tr>
                 </tbody>
             </table>
         </div>
